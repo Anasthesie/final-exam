@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+.container {
+  width: 1080px;
+  margin: auto;
+}
+.first-section {
+  background-image: url(./media/header-image.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  padding-top: 22px;
+}
+.logo {
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  width: 68px;
+  height: 26px;
+}
+.menu-items,
+ul {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+.logo:hover {
+  opacity: 0.6;
+}
+.menu-items a:hover {
+  opacity: 0.6;
+}
+.menu-items a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: opacity 0.3s ease;
+}
+.menu-items li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.ghost-button button {
+  color: #ffffff;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: opacity 0.3s ease;
+}
+.normal-button button {
+  background-color: #ffffff;
+  color: #e17537;
+  border: 1px solid #ffffff;
+  border-radius: 16.5px;
+  padding: 6px 13px 6px 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: opacity 0.3s ease;
+}
+.menu-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.menu-buttons button:hover {
+  opacity: 0.6;
+}
+button {
+  cursor: pointer;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-side h1 {
+  font-size: 83px;
+  color: #3a3a3a;
+}
+.left-side p {
+  font-size: 17px;
+  color: #425466;
+}
