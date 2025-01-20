@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+
+.avto-first-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 1440px; */
+    height: 885px;
+    background-image: url(./media1/Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.first-content{
+    width: 1080px;
+    height: 496px;
+}
+
+.bottom-four-elements{
+    display: flex;
+    margin-top: 105px;
+    gap: 55px;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-element{
+    margin-bottom: 18px;
+    margin-top: 3px;
+}
+
+.second-element{
+    margin-bottom: 18px;
+}
+
+.bottom-text{
+     width: 220px; 
+  height: 44px; 
+  font-size: 13.71px;
+  line-height: 24px;
+  color: #ADBDCC;
+}
+
+.bottom-text a{
+    text-decoration: none;
+    color: #00D4FF;
+    font-weight: bold;
+}
+
+.bottom-text a:hover{
+    color: white;
+}
+
+.third-element p{
+    width: 390px; 
+  height: 140px; 
+}
+
+.first-element h5{
+    font-size: 17.16px;
+    color: #00D4FF;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-left: 13px;
+}
+
+.second-element h2{
+    font-size: 35.18px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-left: 13px;
+
+}
+
+.third-element p{
+    font-size: 17.72px;
+    line-height: 28px;
+    color: #ADBDCC;
+    margin-left: 13px;
+}
+.bottom-four-elements h2{
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: white;
+}
+
+.stat-item {
+    display: flex;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 24px; 
+    background-color: #00D4FF;
+    margin-right: 13px;
+    margin-top: 4px;
+}
+
