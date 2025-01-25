@@ -1,3 +1,4 @@
+/* Anastasia's part*/
 * {
   margin: 0;
   padding: 0;
@@ -8,9 +9,9 @@
   width: 1080px;
   margin: auto;
 }
+
 .first-section {
-  background-image: url(./media/header-image.svg);
-  width: 100%;
+  background-image: url(./media/gradient-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -53,7 +54,6 @@ ul {
   display: flex;
   align-items: center;
   gap: 5px;
-  transition: opacity 0.3s ease;
 }
 .normal-button button {
   background-color: #ffffff;
@@ -64,7 +64,6 @@ ul {
   display: flex;
   align-items: center;
   gap: 5px;
-  transition: opacity 0.3s ease;
 }
 .menu-buttons {
   display: flex;
@@ -76,23 +75,127 @@ ul {
 }
 button {
   cursor: pointer;
+  transition: opacity 0.3s ease;
 }
 .menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.left-side {
+  padding-top: 100px;
+}
+.left-side .content {
+  width: 560px;
+}
 .left-side h1 {
   font-size: 83px;
   color: #3a3a3a;
+  letter-spacing: -3.76;
+  font-weight: 600;
+  line-height: 97.76px;
 }
 .left-side p {
   font-size: 17px;
   color: #425466;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.left-side-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
+.black-button button {
+  color: #ffffff;
+  background-color: #0a2540;
+  border: 1px solid #0a2540;
+  border-radius: 16.5px;
+  padding: 6px 13px 6px 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.black-button button:hover {
+  opacity: 0.6;
+}
+.second-ghost-button button {
+  color: #0a2540;
+  border: none;
+  background-color: transparent;
+}
+.second-ghost-button button:hover {
+  opacity: 0.6;
+}
+.black-arrow {
+  cursor: pointer;
+}
+.ghost-button-arrow {
+  display: flex;
+}
+.first-section-hero {
+  display: flex;
+}
+.content p {
+  width: 460px;
+}
+.customers {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 114px;
+}
+.customer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.hero-wrapper {
+  overflow-x: hidden;
+}
+.financial-payments-section {
+  background-color: #f6f9fc;
+  padding-top: 128px;
+}
+.financial-payments-section h2 {
+  color: #0a2540;
+}
+.modular-solutions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modular-solutions img {
+  width: 540px;
+  height: 540px;
+}
+.modular-solutions .info h6 {
+  font-size: 16px;
+  color: #635bff;
+  font-weight: normal;
+}
+.modular-solutions .info h2 {
+  font-size: 51px;
+  line-height: 68px;
+}
+.modular-solutions .info p {
+  font-size: 17px;
+  color: #425466;
+  line-height: 28px;
+}
+.info {
+  width: 460px;
+}
+.info h2 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+/* end of Anastasia's part*/
+
 /* avtos part */
-.avto-first-page{
+.avto-first-page {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -103,77 +206,76 @@ button {
   flex-wrap: wrap;
 }
 
-.first-content{
+.first-content {
   width: 1080px;
   height: 496px;
 }
 
-.bottom-four-elements{
+.bottom-four-elements {
   display: flex;
   margin-top: 105px;
   gap: 55px;
 }
 
-.first-content{
+.first-content {
   display: flex;
   flex-direction: column;
 }
 
-.first-element{
+.first-element {
   margin-bottom: 18px;
   margin-top: 3px;
 }
 
-.second-element{
+.second-element {
   margin-bottom: 18px;
 }
 
-.bottom-text{
-   width: 220px; 
-height: 44px; 
-font-size: 13.71px;
-line-height: 24px;
-color: #ADBDCC;
+.bottom-text {
+  width: 220px;
+  height: 44px;
+  font-size: 13.71px;
+  line-height: 24px;
+  color: #adbdcc;
 }
 
-.bottom-text a{
+.bottom-text a {
   text-decoration: none;
-  color: #00D4FF;
+  color: #00d4ff;
   font-weight: bold;
 }
 
-.bottom-text a:hover{
+.bottom-text a:hover {
   color: white;
 }
 
-.third-element p{
-  width: 390px; 
-height: 140px; 
+.third-element p {
+  width: 390px;
+  height: 140px;
 }
 
-.first-element h5{
+.first-element h5 {
   font-size: 17.16px;
-  color: #00D4FF;
+  color: #00d4ff;
   line-height: 28px;
   letter-spacing: 0.2px;
   margin-left: 13px;
 }
 
-.second-element h2{
+.second-element h2 {
   font-size: 35.18px;
   line-height: 48px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-left: 13px;
-
 }
 
-.third-element p{
+.third-element p {
   font-size: 17.72px;
   line-height: 28px;
-  color: #ADBDCC;
+  color: #adbdcc;
   margin-left: 13px;
 }
-.bottom-four-elements h2{
+.bottom-four-elements h2 {
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.1px;
@@ -186,46 +288,43 @@ height: 140px;
 
 .vertical-line {
   width: 1px;
-  height: 24px; 
-  background-color: #00D4FF;
+  height: 24px;
+  background-color: #00d4ff;
   margin-right: 13px;
   margin-top: 4px;
 }
-.section-2{
+.section-2 {
   margin-left: 230px;
 }
-.section-2 h3{
+.section-2 h3 {
   font-size: 16.45px;
-  color: #635BFF;
+  color: #635bff;
   letter-spacing: 0.2px;
   margin-top: 100px;
-
 }
-.section-2 p{
+.section-2 p {
   width: 810px;
   height: 130px;
   color: #425466;
   font-size: 16.45px;
   letter-spacing: 0.2px;
   line-height: 28px;
-
-
 }
 
-.section-2 h1{
+.section-2 h1 {
   font-size: 34px;
-  color: #0A2540;
+  color: #0a2540;
   letter-spacing: -0.2px;
   margin-top: 25px;
 }
 
-.section-2 a{
-  color: #635BFF;
-  text-decoration: none;;
+.section-2 a {
+  color: #635bff;
+  text-decoration: none;
 }
 
-.section-2 button{
-  background-color: #635BFF;
+.section-2 button {
+  background-color: #635bff;
   height: 33px;
   border-radius: 16px;
   width: 150px;
@@ -233,62 +332,62 @@ height: 140px;
   border: none;
 }
 
-.section-3{
+.section-3 {
   margin-left: 214px;
   margin-top: 60px;
 }
 
-.vertical-line-2{
+.vertical-line-2 {
   display: inline-block;
   width: 1px;
   height: 24px;
-  background-color: #00D4FF;
+  background-color: #00d4ff;
   margin-right: 13px;
   margin-top: 5px;
 }
 
-.section2-main{
+.section2-main {
   display: flex;
 }
 
-.company-logos{
+.company-logos {
   display: flex;
   margin-top: 20px;
   gap: 10px;
 }
 
-.section-2-second{
+.section-2-second {
   margin-top: 70px;
   margin-bottom: 70px;
 }
 
-.section2-main-1{
+.section2-main-1 {
   display: flex;
 }
-.section-2 a:hover{
-  color:black;
+.section-2 a:hover {
+  color: black;
   font-weight: bold;
 }
-.vertical-line-3{
+.vertical-line-3 {
   display: inline-block;
   width: 1px;
   height: 15px;
-  background-color: #635BFF;
+  background-color: #635bff;
   margin-right: 13px;
   margin-top: 2px;
 }
 
-.vertical-line-4{
+.vertical-line-4 {
   display: inline-block;
   width: 1px;
   height: 24px;
-  background-color: #635BFF;
+  background-color: #635bff;
   margin-right: 13px;
   margin-top: 5px;
 }
 
-.section2-main h1{
-  color:#0A2540;
+.section2-main h1 {
+  color: #0a2540;
   font-size: 22.5px;
   line-height: 32px;
   letter-spacing: 0.2px;
@@ -301,7 +400,7 @@ height: 140px;
   width: 180px;
 }
 
-.container-section2{
+.container-section2 {
   display: flex;
   justify-content: space-around;
   margin-right: 200px;
@@ -311,19 +410,19 @@ height: 140px;
   flex-wrap: wrap;
   background-position: calc(100% + 62px) center;
 }
-.bmw-picture{
+.bmw-picture {
   margin-top: 50px;
 }
 
 .colored-line {
-  display: flex; 
-  width: 1060px; 
-  height: 1px; 
+  display: flex;
+  width: 1060px;
+  height: 1px;
   margin: 0 auto;
   margin-bottom: 40px;
 }
 
-.line-section { 
+.line-section {
   flex: 1;
 }
 
@@ -342,15 +441,15 @@ height: 140px;
 .yellow {
   background-color: rgb(214, 214, 125);
 }
-.first-logo{
+.first-logo {
   width: 40px;
   height: 40px;
 }
-.second-logo{
+.second-logo {
   width: 92px;
   height: 28px;
 }
-.logos{
+.logos {
   display: flex;
   justify-content: center;
   align-items: center;
