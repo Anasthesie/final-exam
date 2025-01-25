@@ -358,7 +358,36 @@ height: 140px;
   margin-bottom: 128px;
 }
 
+.section-4{
+  margin-left: 240px;
+}
 
+.section-4 h3{
+  font-size: 16.17px;
+  line-height: 28px;
+  color: #635BFF;
+  letter-spacing: 0.2px;
+  margin-top: 10  0px;
+}
+
+.section-4 h1{
+  font-size: 34px;
+  line-height: 48px;
+  color: #0A2540;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+  font-size: 500;
+}
+
+.section-4 p{
+  font-size: 16.59px;
+  line-height: 28px;
+  color: #425466;
+  letter-spacing: 0.2px;
+  margin-top: 20px;
+  width: 810px;
+  height: 112px;
+}
 
 
 /* the end of Avto's part */
