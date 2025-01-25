@@ -9,9 +9,9 @@
   width: 1080px;
   margin: auto;
 }
+
 .first-section {
-  background-image: url(./media/header-image.svg);
-  width: 100%;
+  background-image: url(./media/gradient-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -82,14 +82,31 @@ button {
   align-items: center;
   justify-content: space-between;
 }
+.left-side {
+  padding-top: 100px;
+}
+.left-side .content {
+  width: 560px;
+}
 .left-side h1 {
   font-size: 83px;
   color: #3a3a3a;
+  letter-spacing: -3.76;
+  font-weight: 600;
+  line-height: 97.76px;
 }
 .left-side p {
   font-size: 17px;
   color: #425466;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+.left-side-buttons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .black-button button {
   color: #ffffff;
   background-color: #0a2540;
@@ -108,8 +125,72 @@ button {
   border: none;
   background-color: transparent;
 }
+.second-ghost-button button:hover {
+  opacity: 0.6;
+}
 .black-arrow {
   cursor: pointer;
+}
+.ghost-button-arrow {
+  display: flex;
+}
+.first-section-hero {
+  display: flex;
+}
+.content p {
+  width: 460px;
+}
+.customers {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 114px;
+}
+.customer-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+.hero-wrapper {
+  overflow-x: hidden;
+}
+.financial-payments-section {
+  background-color: #f6f9fc;
+  padding-top: 128px;
+}
+.financial-payments-section h2 {
+  color: #0a2540;
+}
+.modular-solutions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modular-solutions img {
+  width: 540px;
+  height: 540px;
+}
+.modular-solutions .info h6 {
+  font-size: 16px;
+  color: #635bff;
+  font-weight: normal;
+}
+.modular-solutions .info h2 {
+  font-size: 51px;
+  line-height: 68px;
+}
+.modular-solutions .info p {
+  font-size: 17px;
+  color: #425466;
+  line-height: 28px;
+}
+.info {
+  width: 460px;
+}
+.info h2 {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 /* end of Anastasia's part*/
 
