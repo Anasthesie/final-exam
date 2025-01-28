@@ -270,11 +270,15 @@ button {
 .list p:nth-child(2) {
   font-weight: bold;
 }
-.feature-main-img{
+.feature-main-img {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.billing {
+  padding-top: 250px;
+  padding-bottom: 250px;
 }
 /* end of Anastasia's part*/
 
