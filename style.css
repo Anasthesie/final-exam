@@ -751,6 +751,7 @@ h2 {
   padding-left: 23px;
 }
 .low-nocode-wrapper {
+  position: relative;
   background-image: url("./media/low-nocode.svg");
   padding-bottom: 128px;
   padding-top: 260px;
@@ -800,4 +801,10 @@ h2 {
   align-items: center;
   justify-content: center;
   gap: 16px;
+}
+.design img {
+  width: 250px;
+  position: absolute;
+  right: 0;
+  top: 50px;
 }
