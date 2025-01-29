@@ -748,6 +748,7 @@ h2 {
 }
 .low-nocode {
   padding-bottom: 65px;
+  padding-left: 23px;
 }
 .low-nocode-wrapper {
   background-image: url("./media/low-nocode.svg");
@@ -793,4 +794,10 @@ h2 {
   flex-direction: column;
   gap: 12px;
   padding-left: 24px;
+}
+.cards-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
 }
