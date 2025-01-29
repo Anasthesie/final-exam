@@ -454,7 +454,7 @@ button {
   justify-content: center;
   align-items: center;
   gap: 150px;
-  margin-bottom: 128px;
+  margin-bottom: 90px;
 }
 
 .section-4{
@@ -487,6 +487,144 @@ button {
   width: 810px;
   height: 112px;
 }
+.first-part-of-4divs{
+  padding-left: 240px;
+  padding-top: 90px;
+  background-color: #f6f9fb;
+}
+.first-part-of-4divs h3{
+  font-size: 16.17px;
+  line-height: 28px;
+  color: #635BFF;
+  letter-spacing: 0.2px;
+}
 
+.first-part-of-4divs h1{
+  font-size: 34px;
+  line-height: 48px;
+  color: #0A2540;
+  letter-spacing: -0.2px;
+  font-size: 500;
+  margin: 20px 0;
+}
+.four-divs-2{
+  background-color: white;
+}
+.first-part-of-4divs p{
+  font-size: 16.59px;
+  line-height: 28px;
+  color: #425466;
+  letter-spacing: 0.2px;
+  width: 682px;
+  height: 112px;
+}
+.second-divs{
+  background-color: white;
+  width: 508px; 
+  height: 553px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+.checkout{
+  width: 500px;
+  height: 337px;
+  background-color: #f6f9fb;
+ padding-top: 64px;
+ padding-left: 47px;
+ margin-bottom: 45px;
+}
+
+.checkout img{
+  border-top-left-radius: 10px;
+}
+
+.second-divs h2, .third-divs h2{
+  font-size: 25px;
+  line-height: 36px;
+  color: #0A2540;
+  letter-spacing: -0.2px;
+}
+
+.second-divs p, .third-divs p{
+  font-size: 16.59px;
+  line-height: 28px;
+  color: #425466;
+  letter-spacing: 0.2px;
+}
+
+.second-divs > img:last-of-type, h2 {
+  padding-left: 20px;
+
+}
+
+.second-divs p, .third-divs p{
+  padding-left: 20px;
+}
+
+.second-divs > img:last-of-type{
+  padding-right: 50px;
+}
+
+.third-divs{ background-color: white;
+  width: 508px; 
+  height: 553px;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.checkout-1 img{
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.third-divs > img:last-of-type{
+  padding-left: 20px;
+}
+
+.startup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color:#f6f9fb;
+  padding-bottom: 180px;
+
+}
+
+.start-up-1{
+  padding-top  : 230px;
+}
+
+.second-divs, .third-divs{
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: background 0.5s ease-in-out, transform 0.3s ease-in-out;
+  position: relative;
+  
+}
+
+.second-divs:hover, .third-divs:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(to bottom, rgba(255, 204, 112, 0.3), white);
+}
+
+.hover-button {
+  display: inline-block;
+  color: #635bff; 
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-top: 5px; 
+  padding-left: 20px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.second-divs:hover .hover-button, 
+.third-divs:hover .hover-button {
+  opacity: 1;
+}
 
 /* the end of Avto's part */
