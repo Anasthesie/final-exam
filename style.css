@@ -886,7 +886,7 @@ h2 {
   flex-wrap: wrap;
   padding-top: 280px;
   margin-top: -228px;
-  height: auto;
+  padding-bottom: 50px;
 }
 
 .groupcontainers {
@@ -896,6 +896,7 @@ h2 {
   gap: 20px;
   flex-wrap: nowrap;
   margin-left: 100px;
+  padding-right: 120px;
 }
 
 .containers h3 {
@@ -925,4 +926,88 @@ h2 {
 h3,
 a {
   margin-bottom: 30px;
+}
+
+.Ready-to-get-started{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #f6f9fb;
+  padding-bottom: 100px;
+}
+
+.ready3 p{
+  width: 500px;
+  height: 112px;
+  font-size: 17px;
+  line-height: 28px;
+  color: #425466;
+  letter-spacing: 0.2px;
+  width: 380px;
+}
+
+.ready1 p{
+  font-size: 17px;
+  line-height: 28px;
+  color: #425466;
+  letter-spacing: 0.2px;
+  width: 270px;
+}
+
+.ready1 h5{
+  font-size: 13px;
+  line-height: 24px;
+  color: #635BFF;
+  letter-spacing: 0.2px;
+}
+.ready3 h2 {
+  margin-left: -20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.ready3 button{
+  color: #ffffff;
+  background-color: #635BFF;
+  border-radius: 14px;
+  padding: 6px 13px 6px 13px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.ready1 h3{
+  font-size: 14px;
+  color: #0A2540;
+  letter-spacing: 0.2px;
+}
+.ready3 a{
+  color: #635BFF;
+  text-decoration: none;
+}
+
+.side3 img{
+  margin-left: 1280px;
+}
+.side3, .side1{
+  background-color: #f6f9fb; 
+}
+.footer{
+  display: flex;
+  justify-content: center;
+  margin-top:70px;
+  gap: 50px;
+}
+#footer1{
+  margin-top: 320px;
+}
+
+.footer h2{
+  margin-left: -10px;
+}
+
+.footer p{
+  font-size: 13px;
+  color: #0A2540;
 }
