@@ -935,8 +935,13 @@ a {
   gap: 20px;
   background-color: #f6f9fb;
   padding-bottom: 100px;
+  position: relative;
+  padding-bottom: 150px;
 }
 
+.Ready-to-get-started a{
+  text-decoration: none;
+}
 .ready3 p{
   width: 500px;
   height: 112px;
@@ -970,44 +975,14 @@ a {
 .ready3 button{
   color: #ffffff;
   background-color: #635BFF;
-  border-radius: 14px;
-.stripe-payment-section {
-  padding-top: 128px;
-  padding-bottom: 200px;
-  background-image: url(./media/paymant-bg.svg);
-}
-.stripe-payment-info h1 {
-  font-size: 22px;
-  color: #0a2540;
-}
-.stripe-payment-info {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  width: 540px;
-}
-.stripe-payment-info p {
-  font-size: 16px;
-  color: #425466;
-  line-height: 28px;
-  width: 350px;
-}
-.stripe-payment-info a {
-  text-decoration: none;
-  color: #635bff;
-}
-.stripe-payment-info a:hover {
-  color: #000;
-}
-.stripe-payment-info .start {
-  color: #ffffff;
-  background-color: #635bff;
-  border: 1px solid #635bff;
-  border-radius: 16.5px;
+  border-radius: 20px;
   padding: 6px 13px 6px 13px;
+  border: none;
+}
+
+.sides{
   display: flex;
-  align-items: center;
-  gap: 5px;
+  justify-content: space-between;
 }
 
 .ready1 h3{
@@ -1020,12 +995,24 @@ a {
   text-decoration: none;
 }
 
-.side3 img{
-  margin-left: 1280px;
-}
+
 .side3, .side1{
-  background-color: #f6f9fb; 
+  background-color: #f6f9fb;
+ 
+ 
 }
+.side1{
+  position: absolute;
+  left: 0;
+  top: 75%;
+}
+.side3{
+  position: absolute;
+  right: 0;
+  top: 60%;
+}
+
+
 .footer{
   display: flex;
   justify-content: center;
@@ -1044,54 +1031,9 @@ a {
   font-size: 13px;
   color: #0A2540;
 }
-  margin-right: 16px;
-}
-.stripe-payment-info .start:hover {
-  color: #ffffff;
-  background-color: #0a2540;
-  transition: 0.3s;
-  border: 1px solid #0a2540;
-}
-.stripe-payment-section .contact {
-  color: #635bff;
-  background-color: transparent;
-  border: none;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.pricing-detalis {
-  width: 270px;
-}
-.payment-info-wrap {
-  display: flex;
-  align-items: center;
-}
-.stripe-payment-section h2 {
-  padding: 0;
-  margin: 0;
-}
-.payment-wrapper {
-  display: flex;
-}
-.pricing-info h2 {
-  font-size: 14px;
-  color: #0a2540;
-  font-weight: normal;
-}
+ 
 
-.pricing-info p {
-  font-size: 13px;
-  color: #425466;
-}
-.pricing-info {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  width: 200px;
-  padding-left: 10px;
-}
-.pricing-wrapper {
-  display: flex;
-  align-items: center;
-}
+
+
+
+
