@@ -971,6 +971,39 @@ a {
   color: #ffffff;
   background-color: #635BFF;
   border-radius: 14px;
+.stripe-payment-section {
+  padding-top: 128px;
+  padding-bottom: 200px;
+  background-image: url(./media/paymant-bg.svg);
+}
+.stripe-payment-info h1 {
+  font-size: 22px;
+  color: #0a2540;
+}
+.stripe-payment-info {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 540px;
+}
+.stripe-payment-info p {
+  font-size: 16px;
+  color: #425466;
+  line-height: 28px;
+  width: 350px;
+}
+.stripe-payment-info a {
+  text-decoration: none;
+  color: #635bff;
+}
+.stripe-payment-info a:hover {
+  color: #000;
+}
+.stripe-payment-info .start {
+  color: #ffffff;
+  background-color: #635bff;
+  border: 1px solid #635bff;
+  border-radius: 16.5px;
   padding: 6px 13px 6px 13px;
   display: flex;
   align-items: center;
@@ -1010,4 +1043,55 @@ a {
 .footer p{
   font-size: 13px;
   color: #0A2540;
+}
+  margin-right: 16px;
+}
+.stripe-payment-info .start:hover {
+  color: #ffffff;
+  background-color: #0a2540;
+  transition: 0.3s;
+  border: 1px solid #0a2540;
+}
+.stripe-payment-section .contact {
+  color: #635bff;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.pricing-detalis {
+  width: 270px;
+}
+.payment-info-wrap {
+  display: flex;
+  align-items: center;
+}
+.stripe-payment-section h2 {
+  padding: 0;
+  margin: 0;
+}
+.payment-wrapper {
+  display: flex;
+}
+.pricing-info h2 {
+  font-size: 14px;
+  color: #0a2540;
+  font-weight: normal;
+}
+
+.pricing-info p {
+  font-size: 13px;
+  color: #425466;
+}
+.pricing-info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 200px;
+  padding-left: 10px;
+}
+.pricing-wrapper {
+  display: flex;
+  align-items: center;
 }
