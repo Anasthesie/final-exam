@@ -36,11 +36,11 @@
             <div class="menu-buttons">
               <div class="ghost-button">
                 <a href="https://stripe.com/contact/sales">
-                <button>
-                  Contact sales
-                  <img alt="icon" src="./media/arrow-icon.svg" />
-                </button>
-              </a>
+                  <button>
+                    Contact sales
+                    <img alt="icon" src="./media/arrow-icon.svg" />
+                  </button>
+                </a>
               </div>
               <div class="normal-button">
                 <a href="https://dashboard.stripe.com/login">
@@ -50,6 +50,22 @@
                   </button>
                 </a>
               </div>
+            </div>
+
+            <div class="hamburger" id="hamburger">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+              >
+                <path
+                  d="M5 7h20M5 15h20M5 23h20"
+                  stroke="#333"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+              </svg>
             </div>
           </div>
         </div>
@@ -216,7 +232,7 @@
               </div>
             </div>
             <div class="feature-main-img">
-              <img src="./media/billing.svg" />
+              <img  class="main-billing-img" src="./media/billing.svg" />
             </div>
           </div>
         </div>
@@ -467,7 +483,7 @@
           <div class="checkout">
             <img src="./media/atlas-2-resized.png" alt="" class="atlas-1" />
           </div>
-          <img src="./media/atlas.png" alt="atlas logo" />
+          <img class="checkoutlogo" src="./media/atlas.png" alt="atlas logo" />
           <h2>Incorporate your company</h2>
           <p>
             Launch a B2C business with a prebuilt payment page that’s optimized
@@ -489,7 +505,7 @@
         </div>
       </div>
 
-      <div>
+      <div class="third-divs-wrapper">
         <div class="third-divs">
           <div class="checkout-1">
             <img src="./media/div-4-3-fixed.png" alt="" />
@@ -678,13 +694,13 @@
     </div>
 
     <div class="footer">
-      <div>
+      <div class="footer-header">
         <h2>Stripe</h2>
         <p>United States (English)</p>
         <p id="footer1">© 2024 Stripe, Inc.</p>
       </div>
       <div>
-        <p>Products & Pricing</p>
+        <p>Pricing</p>
         <p>Pricing</p>
         <p>Atlas</p>
         <p>Billing</p>
@@ -748,16 +764,17 @@
         <p>Cookie settings</p>
         <p>Your privacy choices</p>
 
-        <p>Company</p>
-        <p>Jobs</p>
-        <p>Newsroom</p>
-        <p>Stripe Press</p>
-
         <p>Support</p>
         <p>Contact sales</p>
         <p>Support center</p>
         <p>Support plans</p>
         <p>CA residents: +1 888 926 2289</p>
+      </div>
+      <div>
+        <p>Company</p>
+        <p>Jobs</p>
+        <p>Newsroom</p>
+        <p>Stripe Press</p>
       </div>
     </div>
   </body>
