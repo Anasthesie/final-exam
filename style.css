@@ -501,7 +501,6 @@ button {
   background-image: url(./media/Background2.png);
   background-repeat: no-repeat;
   background-size: cover;
-  flex-wrap: wrap;
   background-position: calc(100% + 62px) center;
 }
 .bmw-picture {
@@ -1034,7 +1033,9 @@ a {
 }
  
 
-
+@media (max-width: 760px) and (max-height: 390px) {
+  
+}
 
 
 
