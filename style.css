@@ -65,6 +65,9 @@ ul {
   align-items: center;
   gap: 5px;
 }
+a{
+  text-decoration: none;
+}
 .menu-buttons {
   display: flex;
   align-items: center;
